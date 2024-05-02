@@ -23,15 +23,6 @@ const helloText = [
   
   setInterval(changeHelloText, 400); // Change greeting every 2 seconds
   
-  window.onload = function() {
-    // Simulate loading time (adjust as needed)
-    setTimeout(function() {
-      content.classList.add('loaded'); // Show content after loading
-      document.body.classList.remove('loading'); // Remove loading styles
-    }, 4500);
-    
-  }
-  
 const addThemeClass = (bodyClass, btnClass) => {
   body.classList.add(bodyClass)
   btnTheme.classList.add(btnClass)
