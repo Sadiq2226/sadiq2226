@@ -1,7 +1,4 @@
-/*===============
-  global styles
-===============*/
-
+/* global styles */
 * {
   padding: 0;
   margin: 0;
@@ -124,9 +121,7 @@ button {
   }
 }
 
-/*===================
-  buttons and links
-===================*/
+/* buttons ans links */
 
 .link {
   color: var(--clr-primary);
@@ -229,9 +224,7 @@ button {
   transform: translateY(-5px);
 }
 
-/*========
-  layout
-========*/
+/* layout */
 
 .center {
   display: flex;
