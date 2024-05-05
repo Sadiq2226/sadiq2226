@@ -121,7 +121,7 @@ button {
   }
 }
 
-/* buttons ans links */
+/* buttons and links */
 
 .link {
   color: var(--clr-primary);
@@ -275,8 +275,8 @@ main {
 .home-img img:hover
 {
   box-shadow: 0 0 25px var(--clr-primary),
-              0 0 50px var(--clr-primary),
-              0 0 100px var(--clr-primary);
+              0 0 30px var(--clr-primary),
+              0 0 50px var(--clr-primary);
 }
 .nav__list {
   margin-right: 1.5em;
